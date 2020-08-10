@@ -1,0 +1,20 @@
+{
+  "name": "EmoteRipper",
+  "version": "0.0.1",
+  "description": "A simple discord bot for tracking user levels.",
+  "main": "build/Main.js",
+  "scripts": {
+    "dev": "nodemon --config ./nodemon.json"
+  },
+  "author": "Auri Collings",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/node": "^12.12.22",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}

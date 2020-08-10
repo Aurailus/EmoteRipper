@@ -1,0 +1,6 @@
+build/
+ripped/
+node_modules/
+
+conf.json
+src/@types/
