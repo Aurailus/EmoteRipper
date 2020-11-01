@@ -52,8 +52,6 @@ export class Bot {
 			});
 		});
 
-		console.log(g)
-
 		try { await fs.mkdir('ripped') } catch (e) {};
 		await fs.writeFile(`ripped/${g.id}.json`, 
 			JSON.stringify({
